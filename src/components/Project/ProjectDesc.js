@@ -15,17 +15,17 @@ const ProjectDesc = ({
 }) => {
   return (
     <div className="projectDesc-container">
-      <div>
+      <div className="paddingBottom">
         <div>
-          <span>{name}</span>
-          <span>{`[${position}]`}</span>
+          <span className="project-name">{name}</span>
+          <span className="font25 bold">{`[${position}]`}</span>
         </div>
-        <div>{duration}</div>
+        <div className="font20 due">{duration}</div>
         <div>
           <span>
-            <FaGithub />
+            <FaGithub size={20} />
           </span>
-          <span>
+          <span className="font20">
             {
               <a href={gitHub} target="_blank" rel="noopener noreferrer">
                 GitHub
@@ -34,9 +34,9 @@ const ProjectDesc = ({
           </span>
         </div>
         {android && (
-          <div>
+          <div className="font20">
             <span>
-              <FaAndroid />
+              <FaAndroid size={20} />
             </span>
             <span>
               {
@@ -48,9 +48,9 @@ const ProjectDesc = ({
           </div>
         )}
         {ios && (
-          <div>
+          <div className="font20">
             <span>
-              <FaApple />
+              <FaApple size={20} />
             </span>
             <span>
               {
@@ -62,12 +62,20 @@ const ProjectDesc = ({
           </div>
         )}
       </div>
-      <div>{`description: ${desc}`}</div>
-      <div>{`stack : ${stack}`}</div>
+      <div className="paddingBottom">
+        <div className="font25 bold">Description</div>
+        <div className="font20 paddingLeft1">{desc}</div>
+      </div>
+      <div className="paddingBottom">
+        <div className="font25 ">Stack</div>
+        <div className="font22 paddingLeft1">{stack}</div>
+      </div>
       <div>
-        <span>contribution :</span>
+        <span className="font25 bold">Contribution</span>
         {contribution.map((work, idx) => (
-          <div key={idx}>- {work}</div>
+          <div className="font20 paddingLeft1" key={idx}>
+            - {work}
+          </div>
         ))}
       </div>
     </div>

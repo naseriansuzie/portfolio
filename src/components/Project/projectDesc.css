@@ -1,7 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .projectDesc-container {
   display: flex;
   flex: 1;
   flex-direction: column;
   margin: 0;
-  padding: 2% 0 2% 0;
+  padding: 2% 2% 2% 0;
+}
+.project-name {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.due {
+  padding-left: 1%;
+}
+.font20 a:visited {
+  color: #15aabf;
+  text-decoration-color: #15aabf;
+}
+/* a:link 방문 전 링크
+a:visited 방문했던 링크
+a:hover 커서가 링크위에 있을 때
+a:active 클릭시 */
+
+.font25 {
+  font-size: 25px;
+}
+.font22 {
+  font-size: 22px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font18 {
+  font-size: 18px;
+}
+.bold {
+  font-weight: bold;
+}
+.paddingLeft1 {
+  padding-left: 1%;
+}
+.paddingBottom {
+  padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 935px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .projectDesc-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    padding: 2% 2% 2% 0;
+  }
+  .project-name {
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  .due {
+    padding-left: 1%;
+  }
+  .font20 a:visited {
+    color: #15aabf;
+    text-decoration-color: #15aabf;
+  }
+  /* a:link 방문 전 링크
+  a:visited 방문했던 링크
+  a:hover 커서가 링크위에 있을 때
+  a:active 클릭시 */
+
+  .font25 {
+    font-size: 23px;
+  }
+  .font22 {
+    font-size: 20px;
+  }
+  .font20 {
+    font-size: 18px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .paddingLeft1 {
+    padding-left: 1%;
+  }
+  .paddingBottom {
+    padding-bottom: 2%;
+  }
 }
