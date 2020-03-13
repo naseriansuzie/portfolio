@@ -29,7 +29,7 @@ const Header = () => {
         <span>
           <Link
             className={currentLink === "me" ? "link underLine" : "link"}
-            to="/about"
+            to="/me"
             onClick={() => setCurrentLink("me")}
           >
             Me
