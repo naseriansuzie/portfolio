@@ -1,12 +1,22 @@
 import React from "react";
-// import "./App.css";
+import { Route, Switch } from "react-router-dom";
+import { Project, About } from "./pages";
+import Header from "./components/Header";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <>
+      <div className="app-container" style={{ border: "solid 1px black" }}>
+        <Header />
+        <Route exact path="/" component={Project} />
+        <Switch>
+          <Route path="/project" component={Project} />
+          <Route path="/about" component={About} />
+        </Switch>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
