@@ -3,3 +3,12 @@
   padding-bottom: 3%;
   border-bottom: 1px solid #ced4da;
 }
+
+@media only screen and (max-width: 767px) {
+  .project-unit {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5%;
+    border-bottom: 1px solid #ced4da;
+  }
+}
