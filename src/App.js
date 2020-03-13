@@ -7,7 +7,7 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="app-container" style={{ border: "solid 1px black" }}>
+      <div className="app-container">
         <Header />
         <Route exact path="/" component={Project} />
         <Switch>
