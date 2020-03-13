@@ -1,0 +1,21 @@
+.projectView-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 2% 0 2% 0;
+  margin-right: 3%;
+}
+
+.vertical {
+  width: 24%;
+}
+
+.horizontal {
+  width: 80%;
+}
+
+.gif {
+  width: 100%;
+}
