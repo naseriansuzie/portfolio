@@ -74,7 +74,7 @@ const ProjectDesc = ({
         <span className="font25 bold">Contribution</span>
         {contribution.map((work, idx) => (
           <div className="font20 paddingLeft1" key={idx}>
-            - {work}
+            {work}
           </div>
         ))}
       </div>
