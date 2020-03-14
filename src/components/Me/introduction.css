@@ -1,0 +1,59 @@
+.intro-container {
+  display: flex;
+  flex: 1;
+  padding: 0 5% 3% 0;
+}
+.intro-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.greeting-sentence {
+  padding: 3% 0%;
+}
+.greeting {
+  font-size: 30px;
+  font-weight: bolder;
+}
+img {
+  width: 100%;
+  border-radius: 0.5em;
+  align-self: center;
+}
+.detail-sentence {
+  padding-top: 3%;
+}
+.font23 {
+  font-size: 23px;
+}
+
+@media only screen and (max-width: 935px) {
+  .intro-container {
+    display: flex;
+    flex: 1;
+    padding: 0 5% 3% 0;
+  }
+  .intro-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .greeting-sentence {
+    padding: 3% 0%;
+  }
+  .greeting {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  img {
+    width: 100%;
+    border-radius: 0.5em;
+    align-self: center;
+  }
+  .detail-sentence {
+    padding-top: 3%;
+  }
+  .font23 {
+    font-size: 21px;
+  }
+}
