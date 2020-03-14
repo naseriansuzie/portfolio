@@ -1,4 +1,9 @@
 .header-container {
+  position: fixed;
+  width: 95%;
+  height: 15%;
+  z-index: 1;
+  background-color: #ffffff;
   display: flex;
   flex: 1;
   padding-bottom: 1%;
@@ -41,6 +46,11 @@ p {
 
 @media only screen and (max-width: 935px) {
   .header-container {
+    position: fixed;
+    width: 95%;
+    height: 20%;
+    z-index: 1;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     flex: 1;

@@ -10,6 +10,7 @@ const App = () => {
     <>
       <div className="app-container">
         <Header currentLink={currentLink} setCurrentLink={setCurrentLink} />
+        <div className="space"></div>
         <Route exact path="/" component={Project} />
         <Switch>
           <Route path="/project" component={Project} />
