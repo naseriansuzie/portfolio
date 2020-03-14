@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6caf3aec.chunk.css",
+    "main.js": "/portfolio/static/js/main.e9e92523.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e9e92523.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b754c826.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b754c826.js.map",
+    "static/js/2.98d34046.chunk.js": "/portfolio/static/js/2.98d34046.chunk.js",
+    "static/js/2.98d34046.chunk.js.map": "/portfolio/static/js/2.98d34046.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.3c930edef3392f77167dbe9173d66bb5.js": "/portfolio/precache-manifest.3c930edef3392f77167dbe9173d66bb5.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.6caf3aec.chunk.css.map": "/portfolio/static/css/main.6caf3aec.chunk.css.map",
+    "static/js/2.98d34046.chunk.js.LICENSE.txt": "/portfolio/static/js/2.98d34046.chunk.js.LICENSE.txt",
+    "static/media/sooji_england.png": "/portfolio/static/media/sooji_england.8b65d553.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b754c826.js",
+    "static/js/2.98d34046.chunk.js",
+    "static/css/main.6caf3aec.chunk.css",
+    "static/js/main.e9e92523.chunk.js"
+  ]
+}
