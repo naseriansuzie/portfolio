@@ -28,7 +28,7 @@ const ProjectDesc = ({
           <span className="font20">
             {
               <a href={gitHub} target="_blank" rel="noopener noreferrer">
-                GitHub
+                GitHub Repo
               </a>
             }
           </span>
@@ -73,9 +73,9 @@ const ProjectDesc = ({
       <div>
         <span className="font25 bold">Contribution</span>
         {contribution.map((work, idx) => (
-          <div className="font20 paddingLeft1" key={idx}>
+          <li className="font20 paddingLeft1" key={idx}>
             {work}
-          </div>
+          </li>
         ))}
       </div>
     </div>
