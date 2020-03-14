@@ -13,7 +13,7 @@ const Resume = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaPaperclip />
+          <FaPaperclip size={18} />
           Resume
         </a>
         <a
@@ -22,7 +22,7 @@ const Resume = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub size={20} />
+          <FaGithub size={18} />
           Github
         </a>
         <a
@@ -31,7 +31,7 @@ const Resume = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaBlogger />
+          <FaBlogger size={20} />
           Tech Blog
         </a>
       </div>

@@ -12,7 +12,7 @@
   padding: 3% 0 7% 0;
 }
 .greeting {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bolder;
 }
 img {
@@ -23,8 +23,8 @@ img {
 .detail-sentence {
   padding: 10% 0;
 }
-.font23 {
-  font-size: 23px;
+.font18 {
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 935px) {
@@ -41,7 +41,7 @@ img {
     padding: 3% 0 10% 0;
   }
   .greeting {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: bolder;
   }
   img {
@@ -52,7 +52,7 @@ img {
   .detail-sentence {
     padding: 10% 0 5% 0;
   }
-  .font23 {
-    font-size: 21px;
+  .font18 {
+    font-size: 16px;
   }
 }

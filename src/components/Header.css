@@ -17,13 +17,13 @@
 .name {
   text-decoration: none;
   color: #000000;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
 }
 
 p {
   color: #212529;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header-right {
@@ -41,7 +41,7 @@ p {
   padding-bottom: 1%;
   user-select: none;
   color: #212529;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
 }
 .underLine {
@@ -70,13 +70,13 @@ p {
   .name {
     text-decoration: none;
     color: #000000;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
   }
 
   p {
     color: #212529;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .header-right {
@@ -97,7 +97,7 @@ p {
     user-select: none;
     color: #212529;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 20px;
   }
   .underLine {
     border-bottom: 1px #212529 solid;

@@ -18,14 +18,14 @@ const ProjectDesc = ({
       <div className="paddingBottom">
         <div>
           <span className="project-name">{name}</span>
-          <span className="font25 bold">{`[${position}]`}</span>
+          <span className="font20 bold">{`[${position}]`}</span>
         </div>
-        <div className="font20 due">{duration}</div>
+        <div className="font16 due">{duration}</div>
         <div>
           <span>
-            <FaGithub size={20} />
+            <FaGithub size={18} />
           </span>
-          <span className="font20">
+          <span className="font16">
             {
               <a href={gitHub} target="_blank" rel="noopener noreferrer">
                 GitHub Repo
@@ -34,9 +34,9 @@ const ProjectDesc = ({
           </span>
         </div>
         {android && (
-          <div className="font20">
+          <div className="font16">
             <span>
-              <FaAndroid size={20} />
+              <FaAndroid size={18} />
             </span>
             <span>
               {
@@ -48,9 +48,9 @@ const ProjectDesc = ({
           </div>
         )}
         {ios && (
-          <div className="font20">
+          <div className="font16">
             <span>
-              <FaApple size={20} />
+              <FaApple size={18} />
             </span>
             <span>
               {
@@ -63,17 +63,17 @@ const ProjectDesc = ({
         )}
       </div>
       <div className="paddingBottom">
-        <div className="font25 bold">Description</div>
-        <div className="font20 paddingLeft1">{desc}</div>
+        <div className="font20 bold">Description</div>
+        <div className="font16 paddingLeft1">{desc}</div>
       </div>
       <div className="paddingBottom">
-        <div className="font25 ">Stack</div>
-        <div className="font22 paddingLeft1">{stack}</div>
+        <div className="font20 ">Stack</div>
+        <div className="font18 paddingLeft1">{stack}</div>
       </div>
       <div>
-        <span className="font25 bold">Contribution</span>
+        <span className="font20 bold">Contribution</span>
         {contribution.map((work, idx) => (
-          <li className="font20 paddingLeft1" key={idx}>
+          <li className="font16 paddingLeft1" key={idx}>
             {work}
           </li>
         ))}

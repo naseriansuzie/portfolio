@@ -6,33 +6,41 @@
   padding: 2% 2% 2% 0;
 }
 .project-name {
-  font-size: 45px;
+  font-size: 37px;
   font-weight: bolder;
 }
 .due {
   padding-left: 1%;
   color: #868e96;
 }
-.font20 a:visited {
+.font16 a:visited {
   color: #15aabf;
   text-decoration-color: #15aabf;
 }
-/* a:link 방문 전 링크
-a:visited 방문했던 링크
-a:hover 커서가 링크위에 있을 때
-a:active 클릭시 */
 
-.font25 {
-  font-size: 25px;
+.font16 a:link {
+  color: #15aabf;
+  text-decoration-color: #15aabf;
 }
-.font22 {
-  font-size: 22px;
+
+.font16 a:hover {
+  color: #15aabf;
+  text-decoration-color: #15aabf;
 }
+
+.font16 a:active {
+  color: #15aabf;
+  text-decoration-color: #15aabf;
+}
+
 .font20 {
   font-size: 20px;
 }
 .font18 {
   font-size: 18px;
+}
+.font16 {
+  font-size: 16px;
 }
 .bold {
   font-weight: bold;
@@ -53,30 +61,41 @@ a:active 클릭시 */
     padding: 5% 2% 2% 0;
   }
   .project-name {
-    font-size: 45px;
+    font-size: 37px;
     font-weight: bolder;
   }
   .due {
     padding-left: 1%;
     color: #ced4da;
   }
-  .font20 a:visited {
+  .font16 a:visited {
     color: #15aabf;
     text-decoration-color: #15aabf;
   }
-  /* a:link 방문 전 링크
-  a:visited 방문했던 링크
-  a:hover 커서가 링크위에 있을 때
-  a:active 클릭시 */
 
-  .font25 {
-    font-size: 25px;
+  .font16 a:link {
+    color: #15aabf;
+    text-decoration-color: #15aabf;
   }
-  .font22 {
-    font-size: 22px;
+
+  .font16 a:hover {
+    color: #15aabf;
+    text-decoration-color: #15aabf;
   }
+
+  .font16 a:active {
+    color: #15aabf;
+    text-decoration-color: #15aabf;
+  }
+
   .font20 {
     font-size: 20px;
+  }
+  .font18 {
+    font-size: 18px;
+  }
+  .font16 {
+    font-size: 16px;
   }
   .bold {
     font-weight: bold;
