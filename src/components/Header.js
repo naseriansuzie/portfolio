@@ -1,22 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "./header.css";
 
 const Header = ({ currentLink, setCurrentLink }) => {
   return (
     <div className="header-container">
       <div className="header-left">
-        <Link className="name" to="/">
+        <Link className="name" to="/" onClick={() => setCurrentLink("project")}>
           SOOJI KIM
         </Link>
         <p>성장을 즐기고, 가치를 만들어 가는 개발자</p>
       </div>
       <div className="header-right">
-        <span
-          style={{
-            textDecoration: "none",
-          }}
-        >
+        <span className="hide">
           <Link
             className={currentLink === "project" ? "link underLine" : "link"}
             to="/project"
