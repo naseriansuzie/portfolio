@@ -7,10 +7,9 @@ const Introduction = () => {
     <div className="intro-container">
       <div className="intro-content">
         <div className="greeting-sentence">
-          <p className="greeting"> 안녕하세요!</p>
-          <p className="greeting">
-            서울에서 활동하는 프런트엔드 엔지니어 김수지입니다.
-          </p>
+          <p className="greeting">안녕하세요!</p>
+          <p className="greeting">서울에서 활동하는 프런트엔드 엔지니어</p>
+          <p className="greeting">김수지입니다.</p>
         </div>
         <img src={photo} alt="Sooji Kim" />
         <div className="detail-sentence">

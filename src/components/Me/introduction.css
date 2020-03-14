@@ -1,7 +1,7 @@
 .intro-container {
   display: flex;
   flex: 1;
-  padding: 0 5% 3% 0;
+  padding: 2% 5% 3% 0;
 }
 .intro-content {
   display: flex;
@@ -9,10 +9,10 @@
   flex-direction: column;
 }
 .greeting-sentence {
-  padding: 3% 0%;
+  padding: 3% 0 7% 0;
 }
 .greeting {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bolder;
 }
 img {
@@ -21,7 +21,7 @@ img {
   align-self: center;
 }
 .detail-sentence {
-  padding-top: 3%;
+  padding: 10% 0;
 }
 .font23 {
   font-size: 23px;
@@ -31,18 +31,17 @@ img {
   .intro-container {
     display: flex;
     flex: 1;
-    padding: 5% 5% 3% 0;
+    padding: 10% 5% 0 0;
   }
   .intro-content {
     display: flex;
     flex: 1;
-    flex-direction: column;
   }
   .greeting-sentence {
-    padding: 3% 0%;
+    padding: 3% 0 10% 0;
   }
   .greeting {
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bolder;
   }
   img {
@@ -51,7 +50,7 @@ img {
     align-self: center;
   }
   .detail-sentence {
-    padding-top: 3%;
+    padding: 10% 0 5% 0;
   }
   .font23 {
     font-size: 21px;
