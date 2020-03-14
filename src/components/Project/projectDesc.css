@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 .projectDesc-container {
   display: flex;
   flex: 1;
@@ -48,10 +44,6 @@ a:active 클릭시 */
 }
 
 @media only screen and (max-width: 935px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
   .projectDesc-container {
     display: flex;
     flex: 1;
