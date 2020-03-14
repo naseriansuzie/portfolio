@@ -11,11 +11,11 @@ const App = () => {
       <div className="app-container">
         <Header currentLink={currentLink} setCurrentLink={setCurrentLink} />
         <div className="space"></div>
-        <Route exact path="/" component={Project} />
+        <Route exact path="/portfolio" component={Project} />
         <Switch>
-          <Route path="/project" component={Project} />
+          <Route path="/portfolio/project" component={Project} />
           <Route
-            path="/me"
+            path="/portfolio/me"
             render={() => <Me setCurrentLink={setCurrentLink} />}
           />
         </Switch>

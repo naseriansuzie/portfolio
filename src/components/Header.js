@@ -6,7 +6,11 @@ const Header = ({ currentLink, setCurrentLink }) => {
   return (
     <div className="header-container">
       <div className="header-left">
-        <Link className="name" to="/" onClick={() => setCurrentLink("project")}>
+        <Link
+          className="name"
+          to="/portfolio"
+          onClick={() => setCurrentLink("project")}
+        >
           SOOJI KIM
         </Link>
         <p>성장을 즐기고, 가치를 만들어 가는 개발자</p>
@@ -15,7 +19,7 @@ const Header = ({ currentLink, setCurrentLink }) => {
         <span className="hide">
           <Link
             className={currentLink === "project" ? "link underLine" : "link"}
-            to="/project"
+            to="/portfolio/project"
             onClick={() => setCurrentLink("project")}
           >
             Project
@@ -24,7 +28,7 @@ const Header = ({ currentLink, setCurrentLink }) => {
         <span>
           <Link
             className={currentLink === "me" ? "link underLine" : "link"}
-            to="/me"
+            to="/portfolio/me"
             onClick={() => setCurrentLink("me")}
           >
             Me
