@@ -1,0 +1,10 @@
+.me-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 935px) {
+  .me-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
