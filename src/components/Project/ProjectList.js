@@ -39,19 +39,8 @@ const ProjectList = () => {
       desc:
         "스폿별 길고양이 등록, 고양이 별 뉴스피드, 팔로우 기능을 제공하는 지도 기반 모바일 어플리케이션의 프런트엔드를 개발하였습니다.",
       stack: "React Native, React Navigation, MobX, Native Base, socketIO",
-      link: (
-        <a href="https://velog.io/@naseriansuzie/DediCats">
-          전체 서비스 워크플로 및 필요 컴포넌트 설계
-        </a>
-      ),
       contribution: [
-        <a
-          href="https://velog.io/@naseriansuzie/DediCats"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          - 유저 니즈를 고려한 전체 서비스 워크플로 및 필요 컴포넌트 설계
-        </a>,
+        `- 유저 니즈를 고려한 전체 서비스 워크플로 및 필요 컴포넌트 설계`,
         `- 서비스에 필요한 정보 분석을 통해 MobX store 디자인`,
         <a
           href="https://youtu.be/Y6T4lNcSfsc"
