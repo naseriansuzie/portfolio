@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-const Header = () => {
-  const [currentLink, setCurrentLink] = useState("project");
+const Header = ({ currentLink, setCurrentLink }) => {
   return (
     <div className="header-container">
       <div className="header-left">
