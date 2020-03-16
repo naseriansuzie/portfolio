@@ -85,26 +85,6 @@ const Resume = () => {
       </div>
 
       <div className="resume-box">
-        <p className="title">Work Experience</p>
-        <div className="set">
-          <p className="set-name">
-            월드비전 코리아 [사내벤처 PM / 디지털 고객 경험 기획]
-          </p>
-          <p className="set-duration">2011.09 - 2019.10</p>
-          <li className="set-detail">
-            소셜 액션 플랫폼 MVli 기획, closed Beta 서비스 운영
-          </li>
-          <li className="set-detail">
-            45만 정기 후원자 디지털 고객 경험 여정 기획, 온/오프라인 서비스
-            재정비
-          </li>
-          <li className="set-detail">
-            잠재 고객 페르소나 프로젝트 진행, 5개 그룹별 차별화 서비스 안 마련
-          </li>
-        </div>
-      </div>
-
-      <div className="resume-box">
         <p className="title">Education</p>
         <div className="set">
           <p className="set-name">Code States</p>
@@ -127,6 +107,26 @@ const Resume = () => {
           <p className="set-name">총신대학교</p>
           <p className="set-duration">2007.03 - 2011.08</p>
           <li className="set-detail">학사학위 수료: 아동학/기독교 교육</li>
+        </div>
+      </div>
+
+      <div className="resume-box">
+        <p className="title">Work Experience</p>
+        <div className="set">
+          <p className="set-name">
+            월드비전 코리아 [사내벤처 PM / 디지털 고객 경험 기획]
+          </p>
+          <p className="set-duration">2011.09 - 2019.10</p>
+          <li className="set-detail">
+            소셜 액션 플랫폼 MVP 기획, closed Beta 서비스 운영
+          </li>
+          <li className="set-detail">
+            45만 정기 후원자 디지털 고객 경험 여정 기획, 온/오프라인 서비스
+            재정비
+          </li>
+          <li className="set-detail">
+            잠재 고객 페르소나 프로젝트 진행, 5개 그룹별 차별화 서비스 안 마련
+          </li>
         </div>
       </div>
 
