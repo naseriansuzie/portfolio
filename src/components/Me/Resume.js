@@ -1,6 +1,6 @@
 import React from "react";
-import { FaPaperclip, FaGithub, FaBlogger, FaMobileAlt } from "react-icons/fa";
-import { AiTwotoneMail } from "react-icons/ai";
+import { FaPaperclip, FaBlogger, FaMobileAlt } from "react-icons/fa";
+import { AiTwotoneMail, AiFillInstagram } from "react-icons/ai";
 import "./resume.css";
 
 const Resume = () => {
@@ -9,7 +9,7 @@ const Resume = () => {
       <div className="resume-box">
         <a
           className="resume-link"
-          href="https://drive.google.com/file/d/19e4PKjY-jtd7Un-YcYSEWwsvYa27fGmy/view?usp=sharing"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,95 +18,102 @@ const Resume = () => {
         </a>
         <a
           className="resume-link"
-          href="https://github.com/naseriansuzie"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub size={18} />
-          Github
-        </a>
-        <a
-          className="resume-link"
-          href="https://velog.io/@naseriansuzie"
+          href="https://madforge50.tistory.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaBlogger size={20} />
-          Tech Blog
+          Blog
         </a>
-      </div>
-      <div className="resume-box">
-        <p className="title">Skills</p>
-        <div className="set">
-          <p className="set-name">Language : JavaScript</p>
-          <li className="set-detail">ES2015 이후 문법 사용 가능</li>
-        </div>
-        <div className="set">
-          <p className="set-name">Front-end : React, React Native, MobX</p>
-          <li className="set-detail">React 컴포넌트 기반 SPA 구축 가능</li>
-          <li className="set-detail">
-            React Router, React Navigation으로 웹앱/모바일앱 페이지 이동 설계
-            가능
-          </li>
-          <li className="set-detail">
-            MobX를 이용하여 상태 관리 및 비즈니스 로직 관리 가능
-          </li>
-          <li className="set-detail">
-            커뮤니티 서비스(프로덕트 등록, 뉴스피드, 댓글, 팔로우, 태그 등록)
-            구현 가능
-          </li>
-          <li className="set-detail">Slack과 유사한 채팅 서비스 구현 가능</li>
-        </div>
-        <div className="set">
-          <p className="set-name">
-            Back-end & Database : Node.js, Express, MySQL, Sequelize
-          </p>
-          <li className="set-detail">REST API 서비스 구현 가능</li>
-          <li className="set-detail">
-            Express를 이용해 MVC 패턴으로 서버 구축 가능
-          </li>
-        </div>
-        <div className="set">
-          <p className="set-name">Deployment : AWS S3, EC2, RDS</p>
-          <li className="set-detail">
-            AWS로 테스트 완료된 애플리케이션 배포 경험
-          </li>
-          <li className="set-detail">정적 파일 스토리지 버킷 활용 가능</li>
-        </div>
-        <div className="set">
-          <p className="set-name">Tools : Git, Github</p>
-          <li className="set-detail">
-            Git/Github을 활용하여 버전 관리 및 협업 가능
-          </li>
-          <li className="set-detail">
-            Git Flow (Upstream, Pull Request, Merge 등) 활용 가능
-          </li>
-        </div>
+        <a
+          className="resume-link"
+          href="https://www.instagram.com/madforge50/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillInstagram size={24} />
+          Instagram
+        </a>
       </div>
 
       <div className="resume-box">
-        <p className="title">Education</p>
+        <p className="title">Strength</p>
         <div className="set">
-          <p className="set-name">Code States</p>
-          <p className="set-duration">2019.08 - 2020.02</p>
+          <p className="set-name">Certificate</p>
+          <li className="set-detail">영어 중등학교 2급 정교사</li>
+          <li className="set-detail">TESOL diploma</li>
+          <p className="set-duration">
+            2008.05 / Universal College Of Language (CANADA)
+          </p>
           <li className="set-detail">
+            TEYC diploma(Teaching English for Young Child
+          </li>
+          <p className="set-duration">
+            2008.05 / Universal College Of Language (CANADA)
+          </p>
+          <li className="set-detail">보드게임 지도사 2급 자격</li>
+          <p className="set-duration">2018.11 / 한국 보드게임 산업협회</p>
+        </div>
+        <div className="set">
+          <p className="set-name">Skills</p>
+          <li className="set-detail font16">
             <a
-              className="codestates"
+              href={
+                "https://madforge50.tistory.com/category/%EC%98%81%EC%96%B4%EA%B5%90%EC%9C%A1"
+              }
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.notion.so/Code-States-Immersive-Course-16-a78e1e11032947bbbdc423c4729529c0"
             >
-              Advanced Software Engineering Immersive Program
+              영어 교육 커리큘럼 디자인 가능
             </a>
           </li>
           <li className="set-detail">
-            자료구조, 알고리즘, OOP, Javascript 기반 SPA/server 구축, 배포 학습
+            학습자 수준(초중고등)에 맞춘 영어교육 자료 개발 가능
           </li>
-        </div>
-        <div className="set">
-          <p className="set-name">총신대학교</p>
-          <p className="set-duration">2007.03 - 2011.08</p>
-          <li className="set-detail">학사학위 수료: 아동학/기독교 교육</li>
+          <li className="set-detail font16">
+            지속적인 학습 콘텐트 발굴:{" "}
+            <a
+              href={
+                "https://madforge50.tistory.com/category/%EC%98%81%EC%96%B4%EA%B5%90%EC%9C%A1/%EC%B5%9C%EC%8B%A0%20%EC%98%81%EC%96%B4%EA%B5%90%EC%9C%A1%20%EC%97%B0%EA%B5%AC%20%EB%8F%99%ED%96%A5"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              최신 영어 교육 논문 리뷰
+            </a>
+          </li>
+          <li className="set-detail font16">
+            <a
+              href={
+                "https://madforge50.tistory.com/category/TV%EB%A1%9C%20%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TV 시리즈
+            </a>
+            /{" "}
+            <a
+              href={
+                "https://madforge50.tistory.com/category/%ED%95%98%EB%A3%A8%EC%97%90%20%ED%95%9C%EC%AA%BD%EC%9C%BC%EB%A1%9C%20%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              책
+            </a>{" "}
+            /
+            <a
+              href={
+                "https://madforge50.tistory.com/category/%EA%B2%8C%EC%9E%84%EC%9C%BC%EB%A1%9C%20%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              게임
+            </a>
+            을 통해 영어 표현 학습 콘텐트 발굴
+          </li>
         </div>
       </div>
 
@@ -114,19 +121,48 @@ const Resume = () => {
         <p className="title">Work Experience</p>
         <div className="set">
           <p className="set-name">
-            월드비전 코리아 [사내벤처 PM / 디지털 고객 경험 기획]
+            이퍼블릭 코리아 [영어교육 앱 개발 콘텐트 기획/검수]
           </p>
-          <p className="set-duration">2011.09 - 2019.10</p>
+          <p className="set-duration">2019.05 - 2019.11</p>
           <li className="set-detail">
-            소셜 액션 플랫폼 MVP 기획, closed Beta 서비스 운영
+            영어교육 어플리케이션 '샐러드 잉글리시' 전반 콘텐츠 개발과 검수
           </li>
           <li className="set-detail">
-            45만 정기 후원자 디지털 고객 경험 여정 기획, 온/오프라인 서비스
-            재정비
+            적절한 상황별 영어표현을 담은 유튜브 콘텐트 발굴
+          </li>
+          <li className="set-detail">자체 개발 영어학습 영상 검수</li>
+        </div>
+
+        <div className="set">
+          <p className="set-name">대안학교 영어 교사 [영어 독해/듣기 강의]</p>
+          <p className="set-duration">2015.04 - 현재</p>
+          <li className="set-detail">
+            서울 기독학교 연구 부장: 전체 영어 교육과정 기획 및 개발
           </li>
           <li className="set-detail">
-            잠재 고객 페르소나 프로젝트 진행, 5개 그룹별 차별화 서비스 안 마련
+            영어 독해 및 듣기 교육과정에 대한 교재 개발
           </li>
+          <li className="set-detail">
+            강의 학교: 서울 초원학교, 도시속작은학교, 비전학교, 사랑사람나눔학교
+          </li>
+        </div>
+      </div>
+
+      <div className="resume-box">
+        <p className="title">Education</p>
+        <div className="set">
+          <p className="set-name">중앙대학교 대학원</p>
+          <p className="set-duration">2014.09 - 2016.08</p>
+          <li className="set-detail">세부 전공: 제2언어 습득</li>
+          <li className="set-detail">
+            석사 졸업 논문: 고등학교 학생들의 명시적/비명시적 L2 지식과
+            작동기억과 L2 능숙도 간의 관계
+          </li>
+        </div>
+        <div className="set">
+          <p className="set-name">총신대학교</p>
+          <p className="set-duration">2007.03 - 2014.02</p>
+          <li className="set-detail">학사학위 졸업: 영어 교육</li>
         </div>
       </div>
 
@@ -136,12 +172,12 @@ const Resume = () => {
           <p className="contact">
             <FaMobileAlt />
             <span></span>
-            +82-10-9476-6995
+            +82-10-7101-3583
           </p>
           <p className="contact">
             <AiTwotoneMail />
             <span></span>
-            yh0gogo@gmail.com
+            madforge50@gmail.com
           </p>
         </div>
       </div>

@@ -16,4 +16,6 @@ const Project = ({ project }) => {
   );
 };
 
+// 영어 표현(만화, 시리즈), 논문 리뷰, 인스타 그램 영어 표현 등을 프로젝트로 담기
+
 export default Project;

@@ -11,9 +11,9 @@ const Header = ({ currentLink, setCurrentLink }) => {
           to="/portfolio"
           onClick={() => setCurrentLink("project")}
         >
-          SOOJI KIM
+          SEUNGSU KIM
         </Link>
-        <p>성장을 즐기고, 가치를 만들어 가는 개발자</p>
+        <p>English Learning Content Creator</p>
       </div>
       <div className="header-right">
         <span className="hide">
